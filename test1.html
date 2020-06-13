@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entry Page</title>
+	<style>
+body {
+  background-image: url("assets/back4.gif");
+    background-repeat: no-repeat center center fixed; ;
+ 	 -webkit-background-size: cover;
+ 	background-size: cover;
+ 	margin: 0;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+	left: 50%;
+	top: 95%;
+	transform: translateX(-50%) translateY(-50%);
+
+}
+
+
+.button1 {
+  background-color: #8A2BE2;
+  color: black;
+  border: 2px solid #e7e7e7;
+  border-radius: 12px;
+  width: 150px;
+
+}
+
+.button1:hover {background-color: #00008B;}
+
+
+#but {
+	position: absolute;
+	left: 50%;
+	top: 80%;
+	transform: translateX(-50%) translateY(-50%);
+
+}
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+}
+
+.imageWithText{
+	width:50px;
+	height:50px;
+	vertical-align: middle;
+}
+
+.inline {
+  display: inline;
+  text-shadow: 3px 2px red;
+
+}
+
+
+</style>
+</head>
+<body>
+<div class="header">
+<h1 style="color:LightGray;   text-shadow: 4px 3px #8B0000;">College Invaders</h1>
+</div>
+	<p class="header" style="color:LightGray;">HIGHEST SCORE:0</p>
+	<p class="header" style="color:LightGray;">
+	<img class = "imageWithText" src="assets/alien.png" alt=""> X 20 Points<br><br>
+	<img class = "imageWithText" src="assets/alien3.png" alt=""> X 30 Points<br><br>
+	<img class = "imageWithText" src="assets/bonus.png" alt=""> X 100 Points
+	</p>
+<div id="but">
+<!--	<p  style="color:#7FFF00;   font-size: 30px;">Choose Your Spaceship To Begin!</p>
+	<form action="test2.html">
+		&nspb;
+		&nspb;
+		&nspb;
+		<input type="image" src="assets/sp2.jpg" alt="Submit" width="50" height="50" >
+	
+	</form>
+	
+	<h2 class="inline" style="color:LightGray; letter-spacing: 3px;">Start Game</h2>
+	<button class="button button1" onclick="self.close()">Exit</button>-->
+   <button class="button button1" onclick="document.location = 'test2.html'"target="_self">Start Game</button>
+ 
+</div>
+
+
+</body>
+</html
